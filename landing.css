@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0; 
+}
+
+html{
+    font-size: 62.5%;
+    color: aliceblue; 
+    font-family: 'Varela Round', sans-serif;
+    /* font-family: 'Tourney', cursive;   */
+    background: rgb(57, 56, 134);
+}
+.header__content{
+
+    display: flex;
+    justify-content: space-between;
+    background: rgba(186, 156, 206,0.5);
+    background: linear-gradient(90deg, rgb(153, 188, 224) 0%, rgba(131,58,180,1) 87%);    
+}
+.header__mark{
+    display: flex;
+    padding: 2rem;
+}
+.header__logo{
+    width: 4rem;
+    height: 3rem;
+}
+.header__content h1{
+    font-size: 2.5rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+ 
+
+}
+.login{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 30rem;
+    height: 50rem;
+    background: rgba(186, 156, 206,0.5);
+    background: linear-gradient(90deg, rgb(153, 188, 224) 0%, rgba(131,58,180,1) 87%); 
+    border-radius: 2rem;   
+    font-size: 1.2rem;
+    border: aliceblue ;
+    box-shadow: 0 0 20px 2px black;
+    
+    
+}
+.login_form{
+    padding-top: 4rem;
+}
+
+.login_email__input, .login_password__input{
+    width: 90%;
+    height: 4rem;
+    font-family: 'Varela Round', sans-serif;
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid aliceblue;
+    padding: 1rem;
+    outline: none;   
+    margin: 1rem;
+
+}
+
+::placeholder{
+    color:aliceblue ;
+}
+
+.login_button{
+    width: 80%;
+    height: 4rem;
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgba(242, 242, 248, 0.4); 
+    border-radius: 1.5rem;  
+    border-style: none;
+    color: aliceblue;
+    margin-bottom: 2rem;
+}
+
+.login_form_options{
+    display: flex;
+    justify-content: center;
+}
+.login_form_options label {
+    margin: auto;
+
+}
+
+.recovery_access{
+    margin: auto;
+    text-decoration: none;
+    color: aliceblue;
+} 
+
+.recovery_access:hover{
+    text-decoration: underline;
+ 
+} 
+
+.login_social{
+    margin: 2rem;
+    text-align: left;
+}
+.login_social > div{
+    margin-bottom: 2rem;  
+    display: flex; 
+    align-items: center;
+}
+.login_social > div > img{
+    height: 30px;
+    width: 30px;  
+}
+.login_register{
+    margin: 4rem 2rem;
+    display: flex;
+}
+.login_register a, .login_button a{
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.login_register a:hover{
+    text-decoration: underline;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+}
+footer a{
+    color: aliceblue;
+    display: inline-block;
+    padding: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
